@@ -10,7 +10,7 @@ const SingleBook = ({ book }) => (
             <Card.Text>
                 {'Prezzo: '} <strong>{book.price + '€'}</strong>
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="success">Add</Button>
         </Card.Body>
     </Card>
 
