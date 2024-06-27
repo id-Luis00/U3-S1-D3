@@ -8,6 +8,7 @@ import AllTheBooks from "./components/AllTheBooks";
 import fantasy from "./data/fantasy.json"
 import history from "./data/history.json"
 import horror from "./data/horror.json"
+import BookList from "./components/BookList";
 
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
       <MyNav />
 
       <Welcome />
-
-      <AllTheBooks genre={horror} />
+      <BookList book={fantasy} />
+      {/* <AllTheBooks genre={horror} /> */}
       <MyFooter />
     </div>
   );
